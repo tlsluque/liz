@@ -37,24 +37,13 @@ a{
     margin-top:-10px;
     letter-spacing: 10px;
     text-align: center;
-    animation: fadeUpIn 5s;
-    -webkit-animation: fadeUpIn 5s; /* Safari and Chrome */
-
 }
 
 h2{
-    position: absolute;
-    margin-left: 37%;
-}
-
-@-webkit-keyframes fadeUpIn /* Safari and Chrome */
-{
-  from { opacity:0; top:110px; }
-  to { opacity:1; top: 47px; }
+    position: relative;
 }
 
 .title p{
-    margin-top: 100px;
     position: relative;
     font-size: 2em;
 }
@@ -1585,6 +1574,7 @@ estilo 2
 
 .balloons {
     text-align: center;
+    height: 0px;
   }
   .balloon {
     display: inline-block;

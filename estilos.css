@@ -58,6 +58,10 @@ h2{
     position: relative;
     font-size: 2em;
 }
+.writer{
+    padding:2em;
+    position:absolute;
+}
 .gift {
     position: absolute;
     bottom: 0px;

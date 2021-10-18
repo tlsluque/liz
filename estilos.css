@@ -60,7 +60,7 @@ h2{
 }
 .writer{
     padding:2em;
-    position:absolute;
+    position:absolute !important;
 }
 .gift {
     position: absolute;
